@@ -1,0 +1,66 @@
+<form id="formulaire">
+    <h1>
+        Formulaire d'inscription
+    </h1>
+    <div class="flex flex-col">
+        <label for="nom">Nom</label>
+        <input type="text" name="nom" id="xnom">
+    </div>
+    <div class="flex flex-col">
+        <label for="prenom">Prénom</label>
+        <input type="text" name="prenom" id="xprenom">
+    </div>
+    <div class="flex flex-col">
+        <label for="adresse">Adresse</label>
+        <input type="text" name="adresse" id="xadresse">
+    </div>
+    <div class="flex flex-col">
+        <label for="cp">Code Postal</label>
+        <input type="text" name="cp" id="xcp">
+    </div>
+    <div class="flex flex-col">
+        <label for="ville">Ville</label>
+        <input type="text" name="ville" id="xville">
+    </div>
+    <div class="flex flex-col">
+        <label for="tel">Téléphone</label>
+        <input type="text" name="tel" id="xtel">
+    </div>
+    <div class="flex flex-col">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="xemail">
+    </div>
+    <div class="flex flex-col">
+        <label for="civilite">Civilité</label>
+        <input type="text" name="civilite" id="xcivilite">
+    </div>
+    <div class="flex flex-col">
+        <label for="login">Login</label>
+        <input type="text" name="login" id="xlogin">
+    </div>
+    <div class="flex flex-col">
+        <label for="password">Mot de passe</label>
+        <input type="password" name="password" id="xpassword">
+    </div>
+    <div class="flex flex-col">
+        <label for="password">Confirmer le mot de passe</label>
+        <input type="password" name="password" id="xconfirmPassword">
+    </div>
+    <div class="flex flex-col">
+        <input type="submit" value="Envoyer" id="form">
+        <button (click)="Affichage()">Afficher les données</button>
+    </div>
+
+    <p id="nom"></p>
+    <p id="prenom"></p>
+    <p id="adresse"></p>
+    <p id="cp"></p>
+    <p id="ville"></p>
+    <p id="tel"></p>
+    <p id="email"></p>
+    <p id="civilite"></p>
+    <p id="login"></p>
+    <p id="password"></p>
+    <p id="confirmPassword"></p>
+
+</form>
